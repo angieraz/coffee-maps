@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <title>Login</title>
+  <link rel="stylesheet" href="styles3.css" />
+</head>
+<body>
+  <div class="login_container">
+    <div class="login_form_container">
+      <div class="left">
+        <form id="loginForm" class="form_container">
+          <h1>Увійдіть до акаунту</h1>
+          <input
+            type="email"
+            placeholder="Email"
+            name="email"
+            required
+            class="input"
+          />
+          <input
+            type="password"
+            placeholder="Пароль"
+            name="password"
+            required
+            class="input"
+          />
+          <div id="error_msg" class="error_msg"></div>
+          <button type="submit" class="green_btn">Увійти</button>
+        </form>
+      </div>
+      <div class="right">
+        <h1>Вперше тут?</h1>
+        <a href="/signup.html">
+          <button type="button" class="white_btn">Зареєструватись</button>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <script src="login.js"></script>
+</body>
+</html>
